@@ -45,5 +45,5 @@ group :development do
   gem 'spring'
 end
 
-gem "refile", require: "refile/rails"
+gem "refile", require: "refile/rails", github: "monkbroc/refile", branch: "304-not-modified"
 gem "refile-mini_magick"

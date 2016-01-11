@@ -1,3 +1,13 @@
+GIT
+  remote: git://github.com/monkbroc/refile.git
+  revision: 01e32880b2e0c0a0fa02aa596899732c69018bbe
+  branch: 304-not-modified
+  specs:
+    refile (0.6.0)
+      mime-types
+      rest-client (~> 1.8)
+      sinatra (~> 1.4.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -110,10 +120,6 @@ GEM
       thor (>= 0.18.1, < 2.0)
     rake (10.4.2)
     rdoc (4.2.0)
-    refile (0.6.2)
-      mime-types
-      rest-client (~> 1.8)
-      sinatra (~> 1.4.5)
     refile-mini_magick (0.2.0)
       mini_magick (~> 4.0)
       refile (~> 0.5)
@@ -172,7 +178,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   rails (= 4.2.5)
-  refile
+  refile!
   refile-mini_magick
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
