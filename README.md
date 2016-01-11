@@ -16,3 +16,16 @@ Steps:
 
 Desired behavior would be to let the browser reuse the cached images
 when reloading the page in development.
+
+Try fix from [304-not-modified](https://github.com/refile/refile/pull/398) branch:
+
+1. Checkout branch<br>`git checkout 304-not-modified`
+
+2. Bundle install<br>`bundle install`
+
+3. Run server<br>`rails s`
+
+4. Open page<br>`http://localhost:3000/`
+
+5. Notice no image loading delay when reloading with F5
+
